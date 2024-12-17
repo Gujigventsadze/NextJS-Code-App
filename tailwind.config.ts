@@ -5,6 +5,8 @@ export default {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/Components/Navbar.tsx",
+    "./src/Components/CodeBox.tsx"
   ],
   theme: {
     extend: {
@@ -12,6 +14,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      boxShadow: {
+        'custom-gray': "0 0 3px gray"
+      }
     },
   },
   plugins: [],
